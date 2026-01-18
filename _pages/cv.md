@@ -17,8 +17,6 @@ Education
 * M.Sc. in Psychology, University of Osnabrück (DE), 2020
 * B.Sc. in Psychology, Utrecht University (NL), 2016
 
-
-  
 <!--
 Publications
 ======
@@ -26,3 +24,6 @@ Publications
      {% include archive-single-cv.html %}
    {% endfor %}</ul>
 -->
+
+
+
