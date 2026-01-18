@@ -9,7 +9,7 @@ redirect_from:
 
 Social Psychology - Sociology - Methodology
 ------
-In my research, I draw on an interdisciplinary approach, complementing social psychological research with sociological perspectives and diverse quantitative methods. 
+My research takes an interdisciplinary approach, integrating social psychological and sociological perspectives through diverse quantitative methods.
 
 Research on Social Milieus and Social Cohesion
 ------
