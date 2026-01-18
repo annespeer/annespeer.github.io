@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-
+Social Psychology - Sociology - Methodology
+------
 In my research, I draw on an interdisciplinary approach, complementing social psychological research with sociological perspectives and diverse quantitative methods. 
 
 Research on Social Milieus and Social Cohesion
@@ -25,7 +26,7 @@ Affiliations
 * [Research Institute Social Cohesion](https://fgz-risc.de/)
 * [Research Center on Inequality and Social Policy (SOCIUM)](https://www.socium.uni-bremen.de/)
 * [BIGSSS international Graduate School of Social Sciences](https://www.bigsss-bremen.de/)
-* [Psychology of Social Complexity](https://www.socolab.co.uk/)
+* [Psychology of Social Complexity Lab](https://www.socolab.co.uk/)
 
 
 
