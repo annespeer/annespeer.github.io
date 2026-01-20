@@ -8,7 +8,6 @@ author_profile: true
 
   <div class="wordwrap">You can also find my publications on <a href="{{https://www.researchgate.net/profile/Anne-Speer}}">my ResearchGate profile</a>.</div>
 
-
 {% include base_path %}
 
 {% assign publications_by_year = site.publications | group_by_exp: "item", "item.date | date: '%Y'" | sort: "name" | reverse %}
@@ -43,6 +42,12 @@ author_profile: true
   margin-bottom: 1em;
   font-size: 1.3em;
   font-weight: bold;
-  color: #333;
+  color: var(--text-color, #333);
+}
+
+@media (prefers-color-scheme: dark) {
+  .year-header {
+    color: #e0e0e0;
+  }
 }
 </style>
