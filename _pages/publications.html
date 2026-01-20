@@ -6,8 +6,107 @@ author_profile: true
 ---
 
 
-  <div class="wordwrap">You can find my publications on <a href="{{https://www.researchgate.net/profile/Anne-Speer}}">my ResearchGate profile</a>.</div>
+  <div class="wordwrap">You can also find my publications on <a href="{{https://www.researchgate.net/profile/Anne-Speer}}">my ResearchGate profile</a>.</div>
 
+{% include base_path %}
 
+{% assign publications_by_year = site.publications | group_by_exp: "item", "item.date | date: '%Y'" | sort: "name" | reverse %}
 
+{% for year_group in publications_by_year %}
+  <h2>{{ year_group.name }}</h2>
+  
+  <div class="publications-list">
+    {% assign sorted_pubs = year_group.items | sort: 'date' | reverse %}
+    {% for post in sorted_pubs %}
+      <div class="publication-item">
+        <div class="publication-citation">
+          {{ post.citation }}
+        </div>
+        
+        {% if post.paperurl %}
+          <div class="publication-links">
+            <a href="{{ post.paperurl }}" target="_blank" class="btn btn--primary btn--small">Paper</a>
+            {% if post.excerpt and post.excerpt != 'This paper...' %}
+              <a href="{{ base_path }}{{ post.url }}" class="btn btn--inverse btn--small">Details</a>
+            {% endif %}
+          </div>
+        {% elsif post.excerpt and post.excerpt != 'This paper...' %}
+          <div class="publication-links">
+            <a href="{{ base_path }}{{ post.url }}" class="btn btn--inverse btn--small">Details</a>
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+
+<style>
+.publications-list {
+  margin-bottom: 2em;
+}
+
+.publication-item {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-citation {
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin-bottom: 0.5em;
+  text-align: left;
+  hanging-indent: 2em;
+  text-indent: -2em;
+  padding-left: 2em;
+}
+
+.publication-links {
+  margin-top: 0.5em;
+}
+
+.publication-links .btn {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.btn--primary {
+  background-color: #7a8288;
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background-color: #5a6268;
+}
+
+.btn--inverse {
+  background-color: #fff;
+  color: #7a8288;
+  border: 1px solid #7a8288;
+}
+
+.btn--inverse:hover {
+  background-color: #f5f5f5;
+}
+
+.btn--small {
+  padding: 0.3em 0.8em;
+  font-size: 0.85em;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+h2 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  border-bottom: 2px solid #7a8288;
+  padding-bottom: 0.3em;
+}
+</style>
 
