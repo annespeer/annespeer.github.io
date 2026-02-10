@@ -26,7 +26,7 @@ Affiliations
 * [University of Bremen](https://www.uni-bremen.de/)
 * [Research Institute Social Cohesion](https://fgz-risc.de/)
 * [Research Center on Inequality and Social Policy (SOCIUM)](https://www.socium.uni-bremen.de/)
-* [BIGSSS international Graduate School of Social Sciences](https://www.bigsss-bremen.de/)
+* [BIGSSS Bremen international Graduate School of Social Sciences](https://www.bigsss-bremen.de/)
 * [Psychology of Social Complexity Lab](https://www.socolab.co.uk/)
 
 
