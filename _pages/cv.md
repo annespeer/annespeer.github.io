@@ -13,7 +13,9 @@ Postdoctoral researcher - University of Bremen
 
 Academic positions
 ------
+
 since 07/2025: Postdoctoral researcher - University of Bremen, Research Institute Social Cohesion (RISC)
+
 09/2020 -- 06/2025: Doctoral candidate - University of Bremen, Research Institute Social Cohesion (RISC), Bremen International Graduate School of Social Sciences (BIGSSS)
 
 Education
