@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Anne Speer - CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
