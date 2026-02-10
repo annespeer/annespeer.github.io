@@ -13,7 +13,7 @@ My research takes an interdisciplinary approach, integrating social psychologica
 
 Research on Status Bias
 ------
-I aim to unpack the complexity of prejudice in the face of socioeconomic inequalities by distinguishing between ingroup bias, a social identity prejudice, and status bias, an inequality prejudice. Whereas numerous social psychological theories focus on ingroup bias, I study to what extent they apply to status bias and status groups. 
+I study prejudice in the face of socioeconomic inequalities by distinguishing between ingroup bias, a social identity prejudice, and status bias, an inequality prejudice. Whereas numerous social psychological theories focus on ingroup bias, I study to what extent they apply to status bias and status groups. 
 
 Research on Social Milieus and Social Cohesion
 ------
